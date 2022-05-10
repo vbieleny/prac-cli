@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/.prac/build/os.elf",
+            "cwd": "${workspaceRoot}",
+            "args": [],
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "text": "target remote localhost:1234"
+                },
+                {
+                    "text": "source ${workspaceFolder}/.gdbinit"
+                }
+            ],
+            "preLaunchTask": "PRAC: Debug"
+        }
+    ]
+}
