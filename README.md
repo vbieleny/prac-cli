@@ -8,7 +8,7 @@ To execute this CLI tool, you need Python 3, as this CLI utility is completely w
 
 ## Installation
 
-To install this CLI, you need to download the latest release from the [releases page]() and place it somewhere on your disk (for example in `/opt`). Then you need to add this path to environment variable PATH, so you can execute this CLI tool from anywhere. To do so, add this line to your `~/.bashrc`
+To install this CLI, you need to download the latest release from the [releases page](https://github.com/vbieleny/prac-cli/releases) and place it somewhere on your disk (for example in `/opt`). Then you need to add this path to environment variable PATH, so you can execute this CLI tool from anywhere. To do so, add this line to your `~/.bashrc`
 
 ```shell
 export PATH="$PATH:/path/to/prac/cli/bin"
